@@ -196,7 +196,7 @@ printf("Enter the first string: ");
 scanf(" %[^\n]", c1);
 getchar(); // consume leftover newline
 printf("Enter the second string: ");
-scanf(" %[^\n]", c2);
+scanf(" %s[^\n]", c2);
 if (strcmp(c1, c2) == 0) {
 printf("Strings are same.\n");
 } else {
