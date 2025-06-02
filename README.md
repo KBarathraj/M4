@@ -198,7 +198,7 @@ int main() {
     scanf(" %[^\n]", c1); 
 
     printf("Enter the second string: ");
-    scanf("%s", c2);
+    scanf("%[^\n]", c2);
 
     while(c1[i] != '\0' && c2[i] != '\0') {
         if(c1[i] != c2[i]) {
